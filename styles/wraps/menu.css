@@ -1,0 +1,38 @@
+#MenuBox {
+  background-color: #dc2626;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+}
+
+#Bar1,
+#Bar2,
+#Bar3 {
+  width: 60%;
+  height: 4px;
+  background-color: white;
+  margin: 3px auto 0;
+  transition: 0.4s;
+}
+.clicked #Bar1 {
+  transform: rotate(-45deg) translate(-2px, 8px);
+}
+
+.clicked #Bar2 {
+  opacity: 0;
+}
+
+.clicked #Bar3 {
+  transform: rotate(45deg) translate(-2px, -8px);
+}
+
+.menuIcon {
+  margin-top: 5px;
+  transition: 0.4s;
+  background-color: #dc2626 !important;
+}
+.menuIcon:hover {
+  cursor: pointer;
+}

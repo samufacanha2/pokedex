@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-center text-6xl"> Poké<span className="text-red-600">dex</span></h1>
         <h2 className="text-center text-4xl mt-8">Choose a Generation:</h2>
         <div id="GridM">
-          <Link href="#">
+          <Link href="/gen1">
               <a className="card">
                 <h3>First Gen</h3>
                 <p>1 - 151</p>
