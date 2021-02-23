@@ -20,7 +20,7 @@ export default class Dashboard extends Component {
             <div className="dashboard">
                 
                 {this.state.pokemon ? (
-                    <div className='GridG'>
+                    <div id="GridG">
                         {this.state.pokemon.map(pokemon =>(
                             <PokemonCard
                             key={pokemon.name}

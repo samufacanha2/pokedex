@@ -24,10 +24,10 @@
 }
 
 .pcard {
-  margin: 0.8rem;
-  flex-basis: 20%;
+  margin: 1rem auto;
+  flex-basis: 22%;
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -50,4 +50,8 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.pcard img {
+  margin: auto;
 }
