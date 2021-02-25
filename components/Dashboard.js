@@ -29,7 +29,7 @@ export default class Dashboard extends Component {
                             />
                         ))}
                     </div>
-                )   : ( <h1> Loading Pokemon </h1>)
+                )   : ( <h1> Loading Pokemons </h1>)
                 }
             </div>
         )

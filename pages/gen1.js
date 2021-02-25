@@ -13,7 +13,7 @@ export default function Gen() {
     </Head>
 
     <div id="__next">
-    <Link href="/"><h1 className="text-center text-6xl items-start">  Poké<span className="text-red-600">dex</span> </h1></Link>
+    <Link href="/"><h1 className="text-center text-6xl items-start cursor-pointer">  Poké<span className="text-red-600">dex</span> </h1></Link>
         <Dashboard/>
       </div>
     </div>

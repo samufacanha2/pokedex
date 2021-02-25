@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Link from 'next/link'
+
 
 export default class PokemonCard extends Component {
 
@@ -18,10 +20,13 @@ export default class PokemonCard extends Component {
     render() {
         
         return (
-            <div className="pcard">
-                <h3> {this.state.name} #{this.state.index} </h3>
-                    <img src={this.state.imageUrl}/>
-            </div>
+            <Link href={`./pokemon?index=${this.state.index}`}>
+                <div className="pcard cursor-pointer">
+                
+                    <h3> {this.state.name} #{this.state.index} </h3>
+                        <img src={this.state.imageUrl}/>
+                </div>
+            </Link>
         )
     }
 }

@@ -55,3 +55,8 @@
 .pcard img {
   margin: auto;
 }
+
+#PokemonImg {
+  margin: auto;
+  width: 200px;
+}
