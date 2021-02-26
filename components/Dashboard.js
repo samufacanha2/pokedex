@@ -2,17 +2,18 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import PokemonCard from './PokemonCard'
 
-export default class Dashboard extends Component {
+export default class Dashboard  extends Component {
 
     state = {
-        url:'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0',
+        url:this.props.url,
         pokemon: null
     }
+
+    
     async componentDidMount(){
         const res = await axios.get(this.state.url);
         
         this.setState({pokemon: res.data['results']});
-
     }
 
     render() {
@@ -35,3 +36,4 @@ export default class Dashboard extends Component {
         )
     }
 }
+
