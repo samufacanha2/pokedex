@@ -6,9 +6,9 @@
 
 To do:
 
- - Add more pokemon info in the individual page;
+ - Add more pokemon info to the individual pages;
  - Add auto color coding for the pokemon types;
- - Add fetching error treatment and image loading animation;
+ - Add fetching error treatment and an image loading animation;
  - Add a searching function and a navigation menu.
 
 <hr>
